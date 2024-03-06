@@ -1,0 +1,17 @@
+body {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    place-items: center;
+    row-gap: 4px;
+  }
+  img {
+    display: flex;
+    height: 550px;
+    width: 350px;
+    padding: 10px;
+  }
+  div {
+    border: 2px solid black;
+  }
